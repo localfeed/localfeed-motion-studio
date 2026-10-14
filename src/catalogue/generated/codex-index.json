@@ -1,11 +1,12 @@
 {
   "version": "2.0.0",
   "total": 332,
-  "tested": 100,
+  "tested": 150,
+  "failed": 0,
   "byCategory": {
     "text": {
       "count": 58,
-      "tested": 4
+      "tested": 26
     },
     "lower-thirds": {
       "count": 3,
@@ -29,11 +30,11 @@
     },
     "backgrounds": {
       "count": 35,
-      "tested": 13
+      "tested": 23
     },
     "gallery": {
       "count": 2,
-      "tested": 0
+      "tested": 2
     },
     "cinematic": {
       "count": 12,
@@ -45,15 +46,15 @@
     },
     "editorial": {
       "count": 24,
-      "tested": 18
+      "tested": 24
     },
     "branding": {
       "count": 18,
-      "tested": 0
+      "tested": 10
     },
     "shapes": {
       "count": 10,
-      "tested": 0
+      "tested": 2
     },
     "cards": {
       "count": 6,
@@ -71,5 +72,49 @@
       "count": 2,
       "tested": 0
     }
+  },
+  "useCases": {
+    "bold-hospitality-reel": [
+      "LpTextKinetic",
+      "LpCinematicEpic",
+      "RveCinematicTitleIntro",
+      "ScEventPromo",
+      "LpLogoStamp"
+    ],
+    "venue-promotion": [
+      "ScEventPromo",
+      "ScProductLaunch",
+      "LpLayoutGiantNumber",
+      "RveEndCard",
+      "LpLowerThird via LowerThirdBar"
+    ],
+    "premium-wine-campaign": [
+      "LpCinematicNoir",
+      "LpCinematicRomance",
+      "LpTextMaskReveal",
+      "RveLetterboxReveal",
+      "LpEffectFilmGrain"
+    ],
+    "playful-lofi-reel": [
+      "LpParticleSakura",
+      "LpBackgroundAurora",
+      "LpTextWave",
+      "ScSocialStory",
+      "LpRollerGradientWave"
+    ],
+    "beer-passport-launch": [
+      "ScProductLaunch",
+      "ScProductCard",
+      "LpDataStatsCards",
+      "RveCountdownIntro",
+      "LogoReveal"
+    ],
+    "audio-driven-typography": [
+      "RveSoundWave",
+      "LpTextKinetic",
+      "LpRollerTypewriter",
+      "RveGlitchText",
+      "LpTextScramble"
+    ]
   }
 }
