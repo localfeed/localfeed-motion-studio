@@ -1,0 +1,684 @@
+{
+  "version": "1.0.0",
+  "brand": "LocalFeed",
+  "generatedFor": "localfeed-motion-studio",
+  "entries": [
+    {
+      "id": "kinetic-headline",
+      "compositionId": "KineticHeadline",
+      "title": "Kinetic Headline",
+      "description": "Word-by-word spring headline with LocalFeed accent underline",
+      "category": "text",
+      "tags": [
+        "title",
+        "intro",
+        "kinetic",
+        "headline"
+      ],
+      "durationInFrames": 90,
+      "defaultProps": {
+        "title": "News that finds you",
+        "subtitle": "Hyperlocal stories, beautifully timed",
+        "accent": "#E57B3C",
+        "background": "#080808"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "typewriter-reveal",
+      "compositionId": "TypewriterReveal",
+      "title": "Typewriter Reveal",
+      "description": "Monospace typewriter with progress bar",
+      "category": "text",
+      "tags": [
+        "typewriter",
+        "mono",
+        "copy"
+      ],
+      "durationInFrames": 120,
+      "defaultProps": {
+        "text": "LocalFeed brings neighborhood stories to your pocket — fast, clear, and close to home.",
+        "charsPerSecond": 22,
+        "background": "#141414"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "word-cascade",
+      "compositionId": "WordCascade",
+      "title": "Word Cascade",
+      "description": "Staggered line cascade from the left",
+      "category": "text",
+      "tags": [
+        "lines",
+        "cascade",
+        "editorial"
+      ],
+      "durationInFrames": 90,
+      "defaultProps": {
+        "lines": [
+          "Your block.",
+          "Your beat.",
+          "Your feed."
+        ],
+        "background": "#080808"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "counter-stat",
+      "compositionId": "CounterStat",
+      "title": "Counter Stat",
+      "description": "Animated integer counter for social proof",
+      "category": "text",
+      "tags": [
+        "numbers",
+        "stats",
+        "kpi"
+      ],
+      "durationInFrames": 90,
+      "defaultProps": {
+        "value": 12840,
+        "suffix": "+",
+        "label": "neighborhood stories this week",
+        "background": "#080808"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "lower-third-bar",
+      "compositionId": "LowerThirdBar",
+      "title": "Lower Third Bar",
+      "description": "Editorial lower-third with location eyebrow",
+      "category": "lower-thirds",
+      "tags": [
+        "lower-third",
+        "news",
+        "location"
+      ],
+      "durationInFrames": 90,
+      "defaultProps": {
+        "title": "Market opens on River Street",
+        "location": "Downtown · Live"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "lower-third-pill",
+      "compositionId": "LowerThirdPill",
+      "title": "Lower Third Pill",
+      "description": "Centered pill chip lower-third",
+      "category": "lower-thirds",
+      "tags": [
+        "lower-third",
+        "pill",
+        "chip"
+      ],
+      "durationInFrames": 75,
+      "defaultProps": {
+        "label": "NOW",
+        "detail": "Weekend street festival starts at noon"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "breaking-news-banner",
+      "compositionId": "BreakingNewsBanner",
+      "title": "Breaking News Banner",
+      "description": "Breaking strip with scrolling ticker",
+      "category": "lower-thirds",
+      "tags": [
+        "breaking",
+        "ticker",
+        "banner"
+      ],
+      "durationInFrames": 120,
+      "defaultProps": {
+        "headline": "City council approves new waterfront park",
+        "ticker": "LocalFeed · Live neighborhood coverage · Updated every hour"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "wipe-reveal",
+      "compositionId": "WipeReveal",
+      "title": "Wipe Reveal",
+      "description": "Brand-color wipe transition into label",
+      "category": "transitions",
+      "tags": [
+        "wipe",
+        "transition",
+        "brand"
+      ],
+      "durationInFrames": 60,
+      "defaultProps": {
+        "label": "LocalFeed",
+        "color": "#E57B3C"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "zoom-punch",
+      "compositionId": "ZoomPunch",
+      "title": "Zoom Punch",
+      "description": "Snappy zoom punch with expanding ring",
+      "category": "transitions",
+      "tags": [
+        "zoom",
+        "impact",
+        "sting"
+      ],
+      "durationInFrames": 60,
+      "defaultProps": {
+        "text": "NOW"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "stagger-grid",
+      "compositionId": "StaggerGrid",
+      "title": "Stagger Grid",
+      "description": "Diagonal stagger of brand tiles",
+      "category": "transitions",
+      "tags": [
+        "grid",
+        "stagger",
+        "mosaic"
+      ],
+      "durationInFrames": 75,
+      "defaultProps": {
+        "columns": 6,
+        "rows": 4
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "feed-card-stack",
+      "compositionId": "FeedCardStack",
+      "title": "Feed Card Stack",
+      "description": "Stacked neighborhood story cards",
+      "category": "social",
+      "tags": [
+        "feed",
+        "cards",
+        "stories"
+      ],
+      "durationInFrames": 120,
+      "defaultProps": {
+        "cards": [
+          {
+            "neighborhood": "Eastside",
+            "title": "Pop-up bakery draws morning queue",
+            "time": "12m"
+          },
+          {
+            "neighborhood": "Harbor",
+            "title": "Ferry schedule shifts for weekend",
+            "time": "34m"
+          },
+          {
+            "neighborhood": "Hillview",
+            "title": "Community garden opens plots",
+            "time": "1h"
+          }
+        ]
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "story-ring",
+      "compositionId": "StoryRing",
+      "title": "Story Ring",
+      "description": "Animated story avatar rings",
+      "category": "social",
+      "tags": [
+        "stories",
+        "avatars",
+        "social"
+      ],
+      "durationInFrames": 90,
+      "defaultProps": {
+        "labels": [
+          "Eastside",
+          "Harbor",
+          "Hillview",
+          "Midtown",
+          "Riverside"
+        ]
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "notification-pop",
+      "compositionId": "NotificationPop",
+      "title": "Notification Pop",
+      "description": "Push notification drop-in",
+      "category": "social",
+      "tags": [
+        "notification",
+        "push",
+        "mobile"
+      ],
+      "durationInFrames": 90,
+      "defaultProps": {
+        "title": "LocalFeed",
+        "body": "New near you: Harbor night market extends hours through Sunday."
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "logo-reveal",
+      "compositionId": "LogoReveal",
+      "title": "Logo Reveal",
+      "description": "LocalFeed lockup with brand sweep",
+      "category": "product",
+      "tags": [
+        "logo",
+        "brand",
+        "intro"
+      ],
+      "durationInFrames": 90,
+      "defaultProps": {
+        "tagline": "Your neighborhood, in motion"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "brand-color-sweep",
+      "compositionId": "BrandColorSweep",
+      "title": "Brand Color Sweep",
+      "description": "Animated LocalFeed color swatches",
+      "category": "product",
+      "tags": [
+        "brand",
+        "colors",
+        "kit"
+      ],
+      "durationInFrames": 90,
+      "defaultProps": {
+        "title": "LocalFeed brand palette"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "feature-showcase",
+      "compositionId": "FeatureShowcase",
+      "title": "Feature Showcase",
+      "description": "Staggered product feature list",
+      "category": "product",
+      "tags": [
+        "features",
+        "product",
+        "marketing"
+      ],
+      "durationInFrames": 120,
+      "defaultProps": {
+        "eyebrow": "Product",
+        "title": "Built for hyperlocal moments",
+        "features": [
+          "Location-aware story feeds",
+          "Short updates you can scan in seconds",
+          "Publisher video in a clean interface"
+        ]
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "app-phone-mock",
+      "compositionId": "AppPhoneMock",
+      "title": "App Phone Mock",
+      "description": "Phone mock with animated feed cards",
+      "category": "product",
+      "tags": [
+        "phone",
+        "mockup",
+        "app"
+      ],
+      "durationInFrames": 120,
+      "defaultProps": {
+        "headline": "The local feed that feels personal",
+        "feedItems": [
+          "Harbor jazz night returns",
+          "River Street market opens early",
+          "Midtown school fair this Saturday"
+        ]
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "animated-bar-chart",
+      "compositionId": "AnimatedBarChart",
+      "title": "Animated Bar Chart",
+      "description": "Horizontal bars for engagement metrics",
+      "category": "data",
+      "tags": [
+        "chart",
+        "data",
+        "bars"
+      ],
+      "durationInFrames": 100,
+      "defaultProps": {
+        "title": "Weekly reader engagement",
+        "bars": [
+          {
+            "label": "Eastside",
+            "value": 86
+          },
+          {
+            "label": "Harbor",
+            "value": 72
+          },
+          {
+            "label": "Hillview",
+            "value": 64
+          },
+          {
+            "label": "Midtown",
+            "value": 91
+          }
+        ]
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "progress-ring",
+      "compositionId": "ProgressRing",
+      "title": "Progress Ring",
+      "description": "Circular progress percentage",
+      "category": "data",
+      "tags": [
+        "progress",
+        "ring",
+        "percent"
+      ],
+      "durationInFrames": 90,
+      "defaultProps": {
+        "percent": 78,
+        "label": "Stories read nearby"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "gradient-mesh",
+      "compositionId": "GradientMesh",
+      "title": "Gradient Mesh",
+      "description": "Drifting brand gradient atmosphere",
+      "category": "backgrounds",
+      "tags": [
+        "background",
+        "gradient",
+        "atmosphere"
+      ],
+      "durationInFrames": 90,
+      "defaultProps": {
+        "caption": "LocalFeed Motion"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "grid-pulse",
+      "compositionId": "GridPulse",
+      "title": "Grid Pulse",
+      "description": "Pulsing neighborhood grid field",
+      "category": "backgrounds",
+      "tags": [
+        "background",
+        "grid",
+        "pulse"
+      ],
+      "durationInFrames": 90,
+      "defaultProps": {
+        "label": "Neighborhood grid"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "particle-drift",
+      "compositionId": "ParticleDrift",
+      "title": "Particle Drift",
+      "description": "Deterministic floating particle field",
+      "category": "backgrounds",
+      "tags": [
+        "background",
+        "particles",
+        "ambient"
+      ],
+      "durationInFrames": 90,
+      "defaultProps": {
+        "title": "Stories in the air"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "reusable": true,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "gallery-reel",
+      "compositionId": "GalleryReel",
+      "title": "Gallery Reel",
+      "description": "Playable multi-scene animation gallery",
+      "category": "gallery",
+      "tags": [
+        "gallery",
+        "preview",
+        "showcase"
+      ],
+      "durationInFrames": 360,
+      "defaultProps": {},
+      "reusable": false,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "catalogue-browser",
+      "compositionId": "CatalogueBrowser",
+      "title": "Catalogue Browser",
+      "description": "On-screen searchable catalogue overview",
+      "category": "gallery",
+      "tags": [
+        "catalogue",
+        "search",
+        "index"
+      ],
+      "durationInFrames": 150,
+      "defaultProps": {
+        "query": "brand"
+      },
+      "reusable": false,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
+    },
+    {
+      "id": "vertical-voiceover-typography",
+      "compositionId": "VerticalVoiceoverTypography",
+      "title": "Vertical Voiceover Typography",
+      "description": "1080x1920 editorial typography driven by voice-over timing with optional SFX, word emphasis and subtle zoom",
+      "category": "vertical",
+      "tags": [
+        "vertical",
+        "9:16",
+        "typography",
+        "voiceover",
+        "editorial",
+        "reel",
+        "emphasis",
+        "localfeed"
+      ],
+      "durationInFrames": 150,
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "defaultProps": {},
+      "reusable": true,
+      "jsonControlled": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED",
+      "kind": "template",
+      "aspectRatios": [
+        "9:16"
+      ],
+      "renderTested": true
+    }
+  ]
+}
