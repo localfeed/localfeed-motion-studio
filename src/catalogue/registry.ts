@@ -30,6 +30,10 @@ import { ParticleDrift, particleDriftSchema } from "../library/backgrounds/Parti
 import { GalleryReel } from "../compositions/GalleryReel";
 import { CatalogueBrowser, catalogueBrowserSchema } from "../compositions/CatalogueBrowser";
 import {
+  VerticalVoiceoverTypography,
+  verticalVoiceoverTypographySchema,
+} from "../compositions/vertical/VerticalVoiceoverTypography";
+import {
   vendorComponents,
   vendorEntries,
 } from "./generated/vendor-registry";
@@ -92,6 +96,10 @@ const componentMap: Record<
   CatalogueBrowser: {
     component: CatalogueBrowser,
     schema: catalogueBrowserSchema,
+  },
+  VerticalVoiceoverTypography: {
+    component: VerticalVoiceoverTypography,
+    schema: verticalVoiceoverTypographySchema,
   },
 };
 

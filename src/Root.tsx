@@ -4,6 +4,12 @@ import { Composition, Folder } from "remotion";
 import { getRegistry } from "./catalogue/registry";
 import { brand } from "./brand/tokens";
 import { BrandColorSweep } from "./library/product/BrandColorSweep";
+import {
+  calculateVerticalVoiceoverMetadata,
+  verticalVoiceoverTypographyDefaults,
+  verticalVoiceoverTypographySchema,
+  VerticalVoiceoverTypography,
+} from "./compositions/vertical/VerticalVoiceoverTypography";
 
 const folders: Record<string, string> = {
   text: "01-Text",
@@ -24,10 +30,13 @@ const folders: Record<string, string> = {
   audio: "16-Audio",
   camera: "17-Camera",
   split: "18-Split",
+  vertical: "20-Vertical",
 };
 
 export const RemotionRoot: React.FC = () => {
-  const registry = getRegistry();
+  const registry = getRegistry().filter(
+    (r) => r.entry.compositionId !== "VerticalVoiceoverTypography",
+  );
   const byCategory = Object.keys(folders).map((category) => ({
     category,
     label: folders[category],
@@ -68,6 +77,19 @@ export const RemotionRoot: React.FC = () => {
           width={brand.video.width}
           height={brand.video.height}
           defaultProps={{ title: "LocalFeed brand palette" }}
+        />
+      </Folder>
+      <Folder name="20-Vertical">
+        <Composition
+          id="VerticalVoiceoverTypography"
+          component={VerticalVoiceoverTypography}
+          schema={verticalVoiceoverTypographySchema}
+          defaultProps={verticalVoiceoverTypographyDefaults}
+          calculateMetadata={calculateVerticalVoiceoverMetadata}
+          durationInFrames={150}
+          fps={brand.video.fps}
+          width={brand.video.shortWidth}
+          height={brand.video.shortHeight}
         />
       </Folder>
     </>

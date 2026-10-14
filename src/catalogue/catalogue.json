@@ -648,6 +648,37 @@
       "renderTested": true,
       "source": "localfeed/localfeed-motion-studio",
       "license": "UNLICENSED"
+    },
+    {
+      "id": "vertical-voiceover-typography",
+      "compositionId": "VerticalVoiceoverTypography",
+      "title": "Vertical Voiceover Typography",
+      "description": "1080x1920 editorial typography driven by voice-over timing with optional SFX, word emphasis and subtle zoom",
+      "category": "vertical",
+      "tags": [
+        "vertical",
+        "9:16",
+        "typography",
+        "voiceover",
+        "editorial",
+        "reel",
+        "emphasis",
+        "localfeed"
+      ],
+      "durationInFrames": 150,
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "defaultProps": {},
+      "reusable": true,
+      "jsonControlled": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED",
+      "kind": "template",
+      "aspectRatios": [
+        "9:16"
+      ],
+      "renderTested": true
     }
   ]
 }

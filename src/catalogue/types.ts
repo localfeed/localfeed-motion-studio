@@ -16,7 +16,8 @@ export type AnimationCategory =
   | "cards"
   | "audio"
   | "camera"
-  | "split";
+  | "split"
+  | "vertical";
 
 export type AnimationKind = "effect" | "transition" | "scene" | "template" | "gallery";
 
