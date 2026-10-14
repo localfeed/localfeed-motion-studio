@@ -3,12 +3,9 @@ import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remo
 import { z } from "zod";
 import { brand } from "../brand/tokens";
 import { fontFamily } from "../brand/fonts";
-import catalogueJson from "../catalogue/catalogue.json";
-import type { Catalogue } from "../catalogue/types";
+import { catalogue } from "../catalogue/registry";
 import { searchCatalogue } from "../catalogue/search";
 import { springProgress } from "../lib/motion";
-
-const catalogue = catalogueJson as Catalogue;
 
 export const catalogueBrowserSchema = z.object({
   query: z.string().default(""),

@@ -6,7 +6,19 @@ export type AnimationCategory =
   | "product"
   | "data"
   | "backgrounds"
-  | "gallery";
+  | "gallery"
+  | "editorial"
+  | "branding"
+  | "cinematic"
+  | "shapes"
+  | "effects"
+  | "photography"
+  | "cards"
+  | "audio"
+  | "camera"
+  | "split";
+
+export type AnimationKind = "effect" | "transition" | "scene" | "template" | "gallery";
 
 export type CatalogueEntry = {
   id: string;
@@ -22,6 +34,12 @@ export type CatalogueEntry = {
   defaultProps: Record<string, unknown>;
   reusable: boolean;
   jsonControlled: boolean;
+  source?: string;
+  license?: string;
+  kind?: AnimationKind;
+  aspectRatios?: string[];
+  renderTested?: boolean;
+  capabilities?: string[];
 };
 
 export type Catalogue = {

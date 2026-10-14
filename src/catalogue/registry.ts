@@ -29,8 +29,29 @@ import { GridPulse, gridPulseSchema } from "../library/backgrounds/GridPulse";
 import { ParticleDrift, particleDriftSchema } from "../library/backgrounds/ParticleDrift";
 import { GalleryReel } from "../compositions/GalleryReel";
 import { CatalogueBrowser, catalogueBrowserSchema } from "../compositions/CatalogueBrowser";
+import {
+  vendorComponents,
+  vendorEntries,
+} from "./generated/vendor-registry";
 
-export const catalogue = catalogueJson as Catalogue;
+const coreCatalogue = catalogueJson as Catalogue;
+
+const enrichCore = (entries: CatalogueEntry[]): CatalogueEntry[] =>
+  entries.map((e) => ({
+    ...e,
+    source: e.source ?? "localfeed/localfeed-motion-studio",
+    license: e.license ?? "UNLICENSED",
+    kind: e.kind ?? (e.category === "gallery" ? "gallery" : "scene"),
+    aspectRatios: e.aspectRatios ?? ["16:9"],
+    renderTested: e.renderTested ?? true,
+  }));
+
+export const catalogue: Catalogue = {
+  version: "2.0.0",
+  brand: "LocalFeed",
+  generatedFor: "localfeed-motion-studio",
+  entries: [...enrichCore(coreCatalogue.entries), ...vendorEntries],
+};
 
 type RegistryItem = {
   entry: CatalogueEntry;
@@ -76,14 +97,37 @@ const componentMap: Record<
 
 export function getRegistry(): RegistryItem[] {
   return catalogue.entries.map((entry) => {
-    const mapped = componentMap[entry.compositionId];
-    if (!mapped) {
-      throw new Error(`Missing component for ${entry.compositionId}`);
+    const core = componentMap[entry.compositionId];
+    if (core) {
+      return {
+        entry,
+        component: core.component,
+        schema: core.schema,
+      };
     }
-    return {
-      entry,
-      component: mapped.component,
-      schema: mapped.schema,
-    };
+    const vendor = vendorComponents[entry.compositionId];
+    if (vendor) {
+      return {
+        entry,
+        component: vendor as ComponentType<Record<string, unknown>>,
+      };
+    }
+    throw new Error(`Missing component for ${entry.compositionId}`);
   });
+}
+
+export function getCatalogueStats() {
+  const byCategory: Record<string, number> = {};
+  const bySource: Record<string, number> = {};
+  for (const e of catalogue.entries) {
+    byCategory[e.category] = (byCategory[e.category] || 0) + 1;
+    const src = e.source || "unknown";
+    bySource[src] = (bySource[src] || 0) + 1;
+  }
+  return {
+    total: catalogue.entries.length,
+    reusable: catalogue.entries.filter((e) => e.reusable).length,
+    byCategory,
+    bySource,
+  };
 }

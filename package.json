@@ -12,6 +12,7 @@
     "@remotion/cli": "4.0.535",
     "@remotion/google-fonts": "^4.0.535",
     "@remotion/tailwind-v4": "4.0.535",
+    "lucide-react": "^1.56.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.535",
@@ -36,7 +37,9 @@
     "catalogue:search": "node scripts/search-catalogue.mjs",
     "render:sample": "bash scripts/render-sample.sh",
     "verify": "bash scripts/verify.sh",
-    "bootstrap": "bash scripts/bootstrap.sh"
+    "bootstrap": "bash scripts/bootstrap.sh",
+    "catalogue:generate": "node scripts/import/generate-vendor-registry.mjs",
+    "catalogue:test-stills": "node scripts/import/batch-still-test.mjs"
   },
   "sideEffects": [
     "*.css"

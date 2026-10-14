@@ -1,0 +1,1701 @@
+{
+  "version": "2.0.0",
+  "total": 332,
+  "tested": 50,
+  "byCategory": {
+    "text": {
+      "count": 58,
+      "samples": [
+        {
+          "id": "kinetic-headline",
+          "compositionId": "KineticHeadline",
+          "title": "Kinetic Headline",
+          "tags": [
+            "title",
+            "intro",
+            "kinetic",
+            "headline"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "typewriter-reveal",
+          "compositionId": "TypewriterReveal",
+          "title": "Typewriter Reveal",
+          "tags": [
+            "typewriter",
+            "mono",
+            "copy"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "word-cascade",
+          "compositionId": "WordCascade",
+          "title": "Word Cascade",
+          "tags": [
+            "lines",
+            "cascade",
+            "editorial"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "counter-stat",
+          "compositionId": "CounterStat",
+          "title": "Counter Stat",
+          "tags": [
+            "numbers",
+            "stats",
+            "kpi"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "lp-roller3-dcarousel",
+          "compositionId": "LpRoller3DCarousel",
+          "title": "Roller3DCarousel",
+          "tags": [
+            "typography",
+            "kinetic",
+            "title",
+            "caption",
+            "roller",
+            "vendor"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-roller-blur",
+          "compositionId": "LpRollerBlur",
+          "title": "Roller Blur",
+          "tags": [
+            "typography",
+            "kinetic",
+            "title",
+            "caption",
+            "roller",
+            "vendor"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-roller-countdown",
+          "compositionId": "LpRollerCountdown",
+          "title": "Roller Countdown",
+          "tags": [
+            "typography",
+            "kinetic",
+            "title",
+            "caption",
+            "roller",
+            "vendor"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-roller-dramatic-stop",
+          "compositionId": "LpRollerDramaticStop",
+          "title": "Roller Dramatic Stop",
+          "tags": [
+            "typography",
+            "kinetic",
+            "title",
+            "caption",
+            "roller",
+            "vendor"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        }
+      ]
+    },
+    "lower-thirds": {
+      "count": 3,
+      "samples": [
+        {
+          "id": "lower-third-bar",
+          "compositionId": "LowerThirdBar",
+          "title": "Lower Third Bar",
+          "tags": [
+            "lower-third",
+            "news",
+            "location"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "lower-third-pill",
+          "compositionId": "LowerThirdPill",
+          "title": "Lower Third Pill",
+          "tags": [
+            "lower-third",
+            "pill",
+            "chip"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "breaking-news-banner",
+          "compositionId": "BreakingNewsBanner",
+          "title": "Breaking News Banner",
+          "tags": [
+            "breaking",
+            "ticker",
+            "banner"
+          ],
+          "kind": "scene",
+          "source": "local"
+        }
+      ]
+    },
+    "transitions": {
+      "count": 23,
+      "samples": [
+        {
+          "id": "wipe-reveal",
+          "compositionId": "WipeReveal",
+          "title": "Wipe Reveal",
+          "tags": [
+            "wipe",
+            "transition",
+            "brand"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "zoom-punch",
+          "compositionId": "ZoomPunch",
+          "title": "Zoom Punch",
+          "tags": [
+            "zoom",
+            "impact",
+            "sting"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "stagger-grid",
+          "compositionId": "StaggerGrid",
+          "title": "Stagger Grid",
+          "tags": [
+            "grid",
+            "stagger",
+            "mosaic"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "lp-transition-blinds",
+          "compositionId": "LpTransitionBlinds",
+          "title": "Transition Blinds",
+          "tags": [
+            "transition",
+            "wipe",
+            "cut",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-transition-box-reveal",
+          "compositionId": "LpTransitionBoxReveal",
+          "title": "Transition Box Reveal",
+          "tags": [
+            "transition",
+            "wipe",
+            "cut",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-transition-circle-wipe",
+          "compositionId": "LpTransitionCircleWipe",
+          "title": "Transition Circle Wipe",
+          "tags": [
+            "transition",
+            "wipe",
+            "cut",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-transition-diagonal-slice",
+          "compositionId": "LpTransitionDiagonalSlice",
+          "title": "Transition Diagonal Slice",
+          "tags": [
+            "transition",
+            "wipe",
+            "cut",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-transition-flash",
+          "compositionId": "LpTransitionFlash",
+          "title": "Transition Flash",
+          "tags": [
+            "transition",
+            "wipe",
+            "cut",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        }
+      ]
+    },
+    "social": {
+      "count": 18,
+      "samples": [
+        {
+          "id": "feed-card-stack",
+          "compositionId": "FeedCardStack",
+          "title": "Feed Card Stack",
+          "tags": [
+            "feed",
+            "cards",
+            "stories"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "story-ring",
+          "compositionId": "StoryRing",
+          "title": "Story Ring",
+          "tags": [
+            "stories",
+            "avatars",
+            "social"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "notification-pop",
+          "compositionId": "NotificationPop",
+          "title": "Notification Pop",
+          "tags": [
+            "notification",
+            "push",
+            "mobile"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "lp-uibutton",
+          "compositionId": "LpUIButton",
+          "title": "UIButton",
+          "tags": [
+            "social",
+            "ui",
+            "mobile",
+            "caption",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-uicard",
+          "compositionId": "LpUICard",
+          "title": "UICard",
+          "tags": [
+            "social",
+            "ui",
+            "mobile",
+            "caption",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-uidropdown",
+          "compositionId": "LpUIDropdown",
+          "title": "UIDropdown",
+          "tags": [
+            "social",
+            "ui",
+            "mobile",
+            "caption",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-uiform",
+          "compositionId": "LpUIForm",
+          "title": "UIForm",
+          "tags": [
+            "social",
+            "ui",
+            "mobile",
+            "caption",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-uiloading",
+          "compositionId": "LpUILoading",
+          "title": "UILoading",
+          "tags": [
+            "social",
+            "ui",
+            "mobile",
+            "caption",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        }
+      ]
+    },
+    "product": {
+      "count": 61,
+      "samples": [
+        {
+          "id": "logo-reveal",
+          "compositionId": "LogoReveal",
+          "title": "Logo Reveal",
+          "tags": [
+            "logo",
+            "brand",
+            "intro"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "brand-color-sweep",
+          "compositionId": "BrandColorSweep",
+          "title": "Brand Color Sweep",
+          "tags": [
+            "brand",
+            "colors",
+            "kit"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "feature-showcase",
+          "compositionId": "FeatureShowcase",
+          "title": "Feature Showcase",
+          "tags": [
+            "features",
+            "product",
+            "marketing"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "app-phone-mock",
+          "compositionId": "AppPhoneMock",
+          "title": "App Phone Mock",
+          "tags": [
+            "phone",
+            "mockup",
+            "app"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "lp-demo-address-bar",
+          "compositionId": "LpDemoAddressBar",
+          "title": "Demo Address Bar",
+          "tags": [
+            "product",
+            "demo",
+            "promo",
+            "saas",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-demo-cursor-click",
+          "compositionId": "LpDemoCursorClick",
+          "title": "Demo Cursor Click",
+          "tags": [
+            "product",
+            "demo",
+            "promo",
+            "saas",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-demo-drag-drop",
+          "compositionId": "LpDemoDragDrop",
+          "title": "Demo Drag Drop",
+          "tags": [
+            "product",
+            "demo",
+            "promo",
+            "saas",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-demo-menu-expand",
+          "compositionId": "LpDemoMenuExpand",
+          "title": "Demo Menu Expand",
+          "tags": [
+            "product",
+            "demo",
+            "promo",
+            "saas",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        }
+      ]
+    },
+    "data": {
+      "count": 27,
+      "samples": [
+        {
+          "id": "animated-bar-chart",
+          "compositionId": "AnimatedBarChart",
+          "title": "Animated Bar Chart",
+          "tags": [
+            "chart",
+            "data",
+            "bars"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "progress-ring",
+          "compositionId": "ProgressRing",
+          "title": "Progress Ring",
+          "tags": [
+            "progress",
+            "ring",
+            "percent"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "lp-data-bar-chart",
+          "compositionId": "LpDataBarChart",
+          "title": "Data Bar Chart",
+          "tags": [
+            "data",
+            "chart",
+            "infographic",
+            "stats",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-data-gauge",
+          "compositionId": "LpDataGauge",
+          "title": "Data Gauge",
+          "tags": [
+            "data",
+            "chart",
+            "infographic",
+            "stats",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-data-line-chart",
+          "compositionId": "LpDataLineChart",
+          "title": "Data Line Chart",
+          "tags": [
+            "data",
+            "chart",
+            "infographic",
+            "stats",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-data-pie-chart",
+          "compositionId": "LpDataPieChart",
+          "title": "Data Pie Chart",
+          "tags": [
+            "data",
+            "chart",
+            "infographic",
+            "stats",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-data-progress-bars",
+          "compositionId": "LpDataProgressBars",
+          "title": "Data Progress Bars",
+          "tags": [
+            "data",
+            "chart",
+            "infographic",
+            "stats",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-data-ranking",
+          "compositionId": "LpDataRanking",
+          "title": "Data Ranking",
+          "tags": [
+            "data",
+            "chart",
+            "infographic",
+            "stats",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        }
+      ]
+    },
+    "backgrounds": {
+      "count": 35,
+      "samples": [
+        {
+          "id": "gradient-mesh",
+          "compositionId": "GradientMesh",
+          "title": "Gradient Mesh",
+          "tags": [
+            "background",
+            "gradient",
+            "atmosphere"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "grid-pulse",
+          "compositionId": "GridPulse",
+          "title": "Grid Pulse",
+          "tags": [
+            "background",
+            "grid",
+            "pulse"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "particle-drift",
+          "compositionId": "ParticleDrift",
+          "title": "Particle Drift",
+          "tags": [
+            "background",
+            "particles",
+            "ambient"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "lp-background-aurora",
+          "compositionId": "LpBackgroundAurora",
+          "title": "Background Aurora",
+          "tags": [
+            "background",
+            "atmosphere",
+            "loop",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-background-bokeh",
+          "compositionId": "LpBackgroundBokeh",
+          "title": "Background Bokeh",
+          "tags": [
+            "background",
+            "atmosphere",
+            "loop",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-background-flowing-gradient",
+          "compositionId": "LpBackgroundFlowingGradient",
+          "title": "Background Flowing Gradient",
+          "tags": [
+            "background",
+            "atmosphere",
+            "loop",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-background-geometric",
+          "compositionId": "LpBackgroundGeometric",
+          "title": "Background Geometric",
+          "tags": [
+            "background",
+            "atmosphere",
+            "loop",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-background-grid",
+          "compositionId": "LpBackgroundGrid",
+          "title": "Background Grid",
+          "tags": [
+            "background",
+            "atmosphere",
+            "loop",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        }
+      ]
+    },
+    "gallery": {
+      "count": 2,
+      "samples": [
+        {
+          "id": "gallery-reel",
+          "compositionId": "GalleryReel",
+          "title": "Gallery Reel",
+          "tags": [
+            "gallery",
+            "preview",
+            "showcase"
+          ],
+          "kind": "scene",
+          "source": "local"
+        },
+        {
+          "id": "catalogue-browser",
+          "compositionId": "CatalogueBrowser",
+          "title": "Catalogue Browser",
+          "tags": [
+            "catalogue",
+            "search",
+            "index"
+          ],
+          "kind": "scene",
+          "source": "local"
+        }
+      ]
+    },
+    "cinematic": {
+      "count": 12,
+      "samples": [
+        {
+          "id": "lp-cinematic-action",
+          "compositionId": "LpCinematicAction",
+          "title": "Cinematic Action",
+          "tags": [
+            "cinematic",
+            "title-card",
+            "trailer",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-cinematic-anime",
+          "compositionId": "LpCinematicAnime",
+          "title": "Cinematic Anime",
+          "tags": [
+            "cinematic",
+            "title-card",
+            "trailer",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-cinematic-documentary",
+          "compositionId": "LpCinematicDocumentary",
+          "title": "Cinematic Documentary",
+          "tags": [
+            "cinematic",
+            "title-card",
+            "trailer",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-cinematic-epic",
+          "compositionId": "LpCinematicEpic",
+          "title": "Cinematic Epic",
+          "tags": [
+            "cinematic",
+            "title-card",
+            "trailer",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-cinematic-horror",
+          "compositionId": "LpCinematicHorror",
+          "title": "Cinematic Horror",
+          "tags": [
+            "cinematic",
+            "title-card",
+            "trailer",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-cinematic-minimal-end",
+          "compositionId": "LpCinematicMinimalEnd",
+          "title": "Cinematic Minimal End",
+          "tags": [
+            "cinematic",
+            "title-card",
+            "trailer",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-cinematic-noir",
+          "compositionId": "LpCinematicNoir",
+          "title": "Cinematic Noir",
+          "tags": [
+            "cinematic",
+            "title-card",
+            "trailer",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-cinematic-romance",
+          "compositionId": "LpCinematicRomance",
+          "title": "Cinematic Romance",
+          "tags": [
+            "cinematic",
+            "title-card",
+            "trailer",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        }
+      ]
+    },
+    "effects": {
+      "count": 22,
+      "samples": [
+        {
+          "id": "lp-effect-chromatic-aberration",
+          "compositionId": "LpEffectChromaticAberration",
+          "title": "Effect Chromatic Aberration",
+          "tags": [
+            "fx",
+            "glitch",
+            "liquid",
+            "advanced",
+            "effect",
+            "vendor"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-effect-depth-of-field",
+          "compositionId": "LpEffectDepthOfField",
+          "title": "Effect Depth Of Field",
+          "tags": [
+            "fx",
+            "glitch",
+            "liquid",
+            "advanced",
+            "effect",
+            "vendor"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-effect-duotone",
+          "compositionId": "LpEffectDuotone",
+          "title": "Effect Duotone",
+          "tags": [
+            "fx",
+            "glitch",
+            "liquid",
+            "advanced",
+            "effect",
+            "vendor"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-effect-film-grain",
+          "compositionId": "LpEffectFilmGrain",
+          "title": "Effect Film Grain",
+          "tags": [
+            "fx",
+            "glitch",
+            "liquid",
+            "advanced",
+            "effect",
+            "vendor"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-effect-glow",
+          "compositionId": "LpEffectGlow",
+          "title": "Effect Glow",
+          "tags": [
+            "fx",
+            "glitch",
+            "liquid",
+            "advanced",
+            "effect",
+            "vendor"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-effect-kaleidoscope",
+          "compositionId": "LpEffectKaleidoscope",
+          "title": "Effect Kaleidoscope",
+          "tags": [
+            "fx",
+            "glitch",
+            "liquid",
+            "advanced",
+            "effect",
+            "vendor"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-effect-light-leak",
+          "compositionId": "LpEffectLightLeak",
+          "title": "Effect Light Leak",
+          "tags": [
+            "fx",
+            "glitch",
+            "liquid",
+            "advanced",
+            "effect",
+            "vendor"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-effect-matrix",
+          "compositionId": "LpEffectMatrix",
+          "title": "Effect Matrix",
+          "tags": [
+            "fx",
+            "glitch",
+            "liquid",
+            "advanced",
+            "effect",
+            "vendor"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        }
+      ]
+    },
+    "editorial": {
+      "count": 24,
+      "samples": [
+        {
+          "id": "lp-layout-asymmetric",
+          "compositionId": "LpLayoutAsymmetric",
+          "title": "Layout Asymmetric",
+          "tags": [
+            "layout",
+            "magazine",
+            "editorial",
+            "grid",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-layout-diagonal",
+          "compositionId": "LpLayoutDiagonal",
+          "title": "Layout Diagonal",
+          "tags": [
+            "layout",
+            "magazine",
+            "editorial",
+            "grid",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-layout-frame-in-frame",
+          "compositionId": "LpLayoutFrameInFrame",
+          "title": "Layout Frame In Frame",
+          "tags": [
+            "layout",
+            "magazine",
+            "editorial",
+            "grid",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-layout-fullscreen-type",
+          "compositionId": "LpLayoutFullscreenType",
+          "title": "Layout Fullscreen Type",
+          "tags": [
+            "layout",
+            "magazine",
+            "editorial",
+            "grid",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-layout-giant-number",
+          "compositionId": "LpLayoutGiantNumber",
+          "title": "Layout Giant Number",
+          "tags": [
+            "layout",
+            "magazine",
+            "editorial",
+            "grid",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-layout-grid-break",
+          "compositionId": "LpLayoutGridBreak",
+          "title": "Layout Grid Break",
+          "tags": [
+            "layout",
+            "magazine",
+            "editorial",
+            "grid",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-layout-layered",
+          "compositionId": "LpLayoutLayered",
+          "title": "Layout Layered",
+          "tags": [
+            "layout",
+            "magazine",
+            "editorial",
+            "grid",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-layout-multi-column",
+          "compositionId": "LpLayoutMultiColumn",
+          "title": "Layout Multi Column",
+          "tags": [
+            "layout",
+            "magazine",
+            "editorial",
+            "grid",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        }
+      ]
+    },
+    "branding": {
+      "count": 18,
+      "samples": [
+        {
+          "id": "lp-logo3-drotate",
+          "compositionId": "LpLogo3DRotate",
+          "title": "Logo3DRotate",
+          "tags": [
+            "logo",
+            "brand",
+            "identity",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-logo-glitch",
+          "compositionId": "LpLogoGlitch",
+          "title": "Logo Glitch",
+          "tags": [
+            "logo",
+            "brand",
+            "identity",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-logo-light-trail",
+          "compositionId": "LpLogoLightTrail",
+          "title": "Logo Light Trail",
+          "tags": [
+            "logo",
+            "brand",
+            "identity",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-logo-mask-reveal",
+          "compositionId": "LpLogoMaskReveal",
+          "title": "Logo Mask Reveal",
+          "tags": [
+            "logo",
+            "brand",
+            "identity",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-logo-morph",
+          "compositionId": "LpLogoMorph",
+          "title": "Logo Morph",
+          "tags": [
+            "logo",
+            "brand",
+            "identity",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-logo-neon-sign",
+          "compositionId": "LpLogoNeonSign",
+          "title": "Logo Neon Sign",
+          "tags": [
+            "logo",
+            "brand",
+            "identity",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-logo-particles",
+          "compositionId": "LpLogoParticles",
+          "title": "Logo Particles",
+          "tags": [
+            "logo",
+            "brand",
+            "identity",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-logo-split-screen",
+          "compositionId": "LpLogoSplitScreen",
+          "title": "Logo Split Screen",
+          "tags": [
+            "logo",
+            "brand",
+            "identity",
+            "vendor",
+            "lifeprompt",
+            "mit"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        }
+      ]
+    },
+    "shapes": {
+      "count": 10,
+      "samples": [
+        {
+          "id": "lp-shape3-dcube",
+          "compositionId": "LpShape3DCube",
+          "title": "Shape3DCube",
+          "tags": [
+            "shapes",
+            "geometric",
+            "abstract",
+            "shape",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-shape-circular-progress",
+          "compositionId": "LpShapeCircularProgress",
+          "title": "Shape Circular Progress",
+          "tags": [
+            "shapes",
+            "geometric",
+            "abstract",
+            "shape",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-shape-explosion",
+          "compositionId": "LpShapeExplosion",
+          "title": "Shape Explosion",
+          "tags": [
+            "shapes",
+            "geometric",
+            "abstract",
+            "shape",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-shape-helix",
+          "compositionId": "LpShapeHelix",
+          "title": "Shape Helix",
+          "tags": [
+            "shapes",
+            "geometric",
+            "abstract",
+            "shape",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-shape-hex-grid",
+          "compositionId": "LpShapeHexGrid",
+          "title": "Shape Hex Grid",
+          "tags": [
+            "shapes",
+            "geometric",
+            "abstract",
+            "shape",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-shape-mandala",
+          "compositionId": "LpShapeMandala",
+          "title": "Shape Mandala",
+          "tags": [
+            "shapes",
+            "geometric",
+            "abstract",
+            "shape",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-shape-morphing",
+          "compositionId": "LpShapeMorphing",
+          "title": "Shape Morphing",
+          "tags": [
+            "shapes",
+            "geometric",
+            "abstract",
+            "shape",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        },
+        {
+          "id": "lp-shape-particle-field",
+          "compositionId": "LpShapeParticleField",
+          "title": "Shape Particle Field",
+          "tags": [
+            "shapes",
+            "geometric",
+            "abstract",
+            "shape",
+            "vendor",
+            "lifeprompt"
+          ],
+          "kind": "scene",
+          "source": "lifeprompt-team/remotion-scenes"
+        }
+      ]
+    },
+    "cards": {
+      "count": 6,
+      "samples": [
+        {
+          "id": "rve-animated-list",
+          "compositionId": "RveAnimatedList",
+          "title": "Animated List",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "card",
+            "promo-card",
+            "promo"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "rve-card-flip",
+          "compositionId": "RveCardFlip",
+          "title": "Card Flip",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "card",
+            "promo-card",
+            "promo"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "rve-end-card",
+          "compositionId": "RveEndCard",
+          "title": "End Card",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "card",
+            "promo-card",
+            "promo"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "rve-lower-third",
+          "compositionId": "RveLowerThird",
+          "title": "Lower Third",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "card",
+            "promo-card",
+            "promo"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "rve-notification-pop",
+          "compositionId": "RveNotificationPop",
+          "title": "Notification Pop",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "card",
+            "promo-card",
+            "promo"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "rve-subscribe-reminder",
+          "compositionId": "RveSubscribeReminder",
+          "title": "Subscribe Reminder",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "card",
+            "promo-card",
+            "promo"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        }
+      ]
+    },
+    "photography": {
+      "count": 8,
+      "samples": [
+        {
+          "id": "rve-gallery-grid",
+          "compositionId": "RveGalleryGrid",
+          "title": "Gallery Grid",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "photo",
+            "image",
+            "reveal"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "rve-image-carousel",
+          "compositionId": "RveImageCarousel",
+          "title": "Image Carousel",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "photo",
+            "image",
+            "reveal"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "rve-image-zoom-reveal",
+          "compositionId": "RveImageZoomReveal",
+          "title": "Image Zoom Reveal",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "photo",
+            "image",
+            "reveal"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "rve-masonry-gallery",
+          "compositionId": "RveMasonryGallery",
+          "title": "Masonry Gallery",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "photo",
+            "image",
+            "reveal"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "rve-photo-stack",
+          "compositionId": "RvePhotoStack",
+          "title": "Photo Stack",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "photo",
+            "image",
+            "reveal"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "rve-picture-in-picture",
+          "compositionId": "RvePictureInPicture",
+          "title": "Picture In Picture",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "photo",
+            "image",
+            "reveal"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "rve-polaroid-frame",
+          "compositionId": "RvePolaroidFrame",
+          "title": "Polaroid Frame",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "photo",
+            "image",
+            "reveal"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "rve-rotating-carousel",
+          "compositionId": "RveRotatingCarousel",
+          "title": "Rotating Carousel",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "photo",
+            "image",
+            "reveal"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        }
+      ]
+    },
+    "audio": {
+      "count": 3,
+      "samples": [
+        {
+          "id": "rve-liquid-wave",
+          "compositionId": "RveLiquidWave",
+          "title": "Liquid Wave",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "audio",
+            "beat",
+            "music"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "rve-sound-wave",
+          "compositionId": "RveSoundWave",
+          "title": "Sound Wave",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "audio",
+            "beat",
+            "music"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "sc-ai-animation",
+          "compositionId": "ScAiAnimation",
+          "title": "Ai Animation",
+          "tags": [
+            "audio",
+            "beat",
+            "music",
+            "waveform",
+            "vendor",
+            "swiftclip"
+          ],
+          "kind": "template",
+          "source": "vungods/SwiftClip"
+        }
+      ]
+    },
+    "split": {
+      "count": 2,
+      "samples": [
+        {
+          "id": "rve-split-screen",
+          "compositionId": "RveSplitScreen",
+          "title": "Split Screen",
+          "tags": [
+            "vendor",
+            "rve",
+            "mit",
+            "split-screen",
+            "multi-panel",
+            "split"
+          ],
+          "kind": "effect",
+          "source": "reactvideoeditor/remotion-templates"
+        },
+        {
+          "id": "sc-split-reveal",
+          "compositionId": "ScSplitReveal",
+          "title": "Split Reveal",
+          "tags": [
+            "split-screen",
+            "multi-panel",
+            "vendor",
+            "swiftclip",
+            "mit",
+            "template"
+          ],
+          "kind": "template",
+          "source": "vungods/SwiftClip"
+        }
+      ]
+    }
+  }
+}

@@ -14,6 +14,16 @@ const folders: Record<string, string> = {
   data: "06-Data",
   backgrounds: "07-Backgrounds",
   gallery: "08-Gallery",
+  editorial: "09-Editorial",
+  branding: "10-Branding",
+  cinematic: "11-Cinematic",
+  shapes: "12-Shapes",
+  effects: "13-Effects",
+  photography: "14-Photography",
+  cards: "15-Cards",
+  audio: "16-Audio",
+  camera: "17-Camera",
+  split: "18-Split",
 };
 
 export const RemotionRoot: React.FC = () => {
@@ -26,28 +36,30 @@ export const RemotionRoot: React.FC = () => {
 
   return (
     <>
-      {byCategory.map(({ category, label, items }) => (
-        <Folder key={category} name={label}>
-          {items.map(({ entry, component, schema }) => (
-            <Composition
-              key={entry.compositionId}
-              id={entry.compositionId}
-              component={
-                component as unknown as React.ComponentType<
-                  Record<string, unknown>
-                >
-              }
-              durationInFrames={entry.durationInFrames}
-              fps={entry.fps}
-              width={entry.width}
-              height={entry.height}
-              defaultProps={entry.defaultProps}
-              schema={schema}
-            />
-          ))}
-        </Folder>
-      ))}
-      <Folder name="09-Brand">
+      {byCategory.map(({ category, label, items }) =>
+        items.length === 0 ? null : (
+          <Folder key={category} name={label}>
+            {items.map(({ entry, component, schema }) => (
+              <Composition
+                key={entry.compositionId}
+                id={entry.compositionId}
+                component={
+                  component as unknown as React.ComponentType<
+                    Record<string, unknown>
+                  >
+                }
+                durationInFrames={entry.durationInFrames}
+                fps={entry.fps}
+                width={entry.width}
+                height={entry.height}
+                defaultProps={entry.defaultProps}
+                schema={schema}
+              />
+            ))}
+          </Folder>
+        ),
+      )}
+      <Folder name="19-Brand">
         <Composition
           id="BrandKit"
           component={BrandColorSweep}
