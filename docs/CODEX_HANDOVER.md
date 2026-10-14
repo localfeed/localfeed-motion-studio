@@ -5,7 +5,7 @@ This repository is a standalone Remotion motion studio for LocalFeed. It does **
 ## What you get
 
 - Remotion 4 project with Studio preview and MP4 rendering
-- 22 reusable JSON-controlled animations + GalleryReel + CatalogueBrowser (+ BrandKit)
+- 330+ render-tested reusable animations (core LocalFeed + MIT vendor libraries) + GalleryReel + CatalogueBrowser (+ BrandKit)
 - Searchable catalogue at `src/catalogue/catalogue.json`
 - LocalFeed brand tokens (`#E57B3C`, `#080808`, Playfair / Inter / JetBrains Mono)
 - Codex skill: `.codex/skills/motion-director/SKILL.md`
@@ -59,3 +59,8 @@ npm run catalogue:search -- --tag brand
 ```bash
 ./scripts/verify.sh
 ```
+
+
+## Expanded catalogue
+
+Use `src/catalogue/generated/codex-index.json` and `npm run catalogue:search` so Codex selects by capability without loading hundreds of source files.

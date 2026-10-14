@@ -54,3 +54,13 @@ Props for each reusable animation are Zod-validated and editable in Remotion Stu
 ## License note
 
 Project code is private to LocalFeed. Animation techniques follow common Remotion patterns (springs / interpolate). Third-party packages retain their own licenses (MIT for Remotion ecosystem dependencies).
+
+
+## Library expansion
+
+Vendored MIT animation sources live under `vendor/` (see `vendor/ATTRIBUTION.md`).
+
+- Search: `npm run catalogue:search -- --q kinetic`
+- Codex index: `src/catalogue/generated/codex-index.json`
+- Regenerate registry: `npm run catalogue:generate`
+- Batch still tests: `npm run catalogue:test-stills -- --limit 50`

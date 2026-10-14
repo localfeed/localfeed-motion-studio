@@ -26,7 +26,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "typewriter-reveal",
@@ -41,7 +44,7 @@
       ],
       "durationInFrames": 120,
       "defaultProps": {
-        "text": "LocalFeed brings neighborhood stories to your pocket \u2014 fast, clear, and close to home.",
+        "text": "LocalFeed brings neighborhood stories to your pocket — fast, clear, and close to home.",
         "charsPerSecond": 22,
         "background": "#141414"
       },
@@ -49,7 +52,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "word-cascade",
@@ -75,7 +81,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "counter-stat",
@@ -99,7 +108,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "lower-third-bar",
@@ -115,13 +127,16 @@
       "durationInFrames": 90,
       "defaultProps": {
         "title": "Market opens on River Street",
-        "location": "Downtown \u00b7 Live"
+        "location": "Downtown · Live"
       },
       "fps": 30,
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "lower-third-pill",
@@ -143,7 +158,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "breaking-news-banner",
@@ -159,13 +177,16 @@
       "durationInFrames": 120,
       "defaultProps": {
         "headline": "City council approves new waterfront park",
-        "ticker": "LocalFeed \u00b7 Live neighborhood coverage \u00b7 Updated every hour"
+        "ticker": "LocalFeed · Live neighborhood coverage · Updated every hour"
       },
       "fps": 30,
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "wipe-reveal",
@@ -187,7 +208,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "zoom-punch",
@@ -208,7 +232,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "stagger-grid",
@@ -230,7 +257,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "feed-card-stack",
@@ -267,7 +297,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "story-ring",
@@ -294,7 +327,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "notification-pop",
@@ -316,7 +352,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "logo-reveal",
@@ -337,7 +376,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "brand-color-sweep",
@@ -358,7 +400,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "feature-showcase",
@@ -385,7 +430,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "app-phone-mock",
@@ -411,7 +459,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "animated-bar-chart",
@@ -450,7 +501,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "progress-ring",
@@ -472,7 +526,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "gradient-mesh",
@@ -493,7 +550,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "grid-pulse",
@@ -514,7 +574,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "particle-drift",
@@ -535,7 +598,10 @@
       "width": 1920,
       "height": 1080,
       "reusable": true,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "gallery-reel",
@@ -554,7 +620,10 @@
       "fps": 30,
       "width": 1920,
       "height": 1080,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     },
     {
       "id": "catalogue-browser",
@@ -575,7 +644,10 @@
       "fps": 30,
       "width": 1920,
       "height": 1080,
-      "jsonControlled": true
+      "jsonControlled": true,
+      "renderTested": true,
+      "source": "localfeed/localfeed-motion-studio",
+      "license": "UNLICENSED"
     }
   ]
 }

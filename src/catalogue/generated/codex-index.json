@@ -1,106 +1,91 @@
 {
   "version": "2.0.0",
   "total": 332,
-  "tested": 150,
+  "tested": 330,
   "failed": 0,
   "byCategory": {
     "text": {
-      "count": 58,
-      "tested": 26
+      "count": 58
     },
     "lower-thirds": {
-      "count": 3,
-      "tested": 3
+      "count": 3
     },
     "transitions": {
-      "count": 23,
-      "tested": 3
+      "count": 23
     },
     "social": {
-      "count": 18,
-      "tested": 3
+      "count": 18
     },
     "product": {
-      "count": 61,
-      "tested": 16
+      "count": 61
     },
     "data": {
-      "count": 27,
-      "tested": 10
+      "count": 27
     },
     "backgrounds": {
-      "count": 35,
-      "tested": 23
+      "count": 35
     },
     "gallery": {
-      "count": 2,
-      "tested": 2
+      "count": 2
     },
     "cinematic": {
-      "count": 12,
-      "tested": 10
+      "count": 12
     },
     "effects": {
-      "count": 22,
-      "tested": 20
+      "count": 22
     },
     "editorial": {
-      "count": 24,
-      "tested": 24
+      "count": 24
     },
     "branding": {
-      "count": 18,
-      "tested": 10
+      "count": 18
     },
     "shapes": {
-      "count": 10,
-      "tested": 2
+      "count": 10
     },
     "cards": {
-      "count": 6,
-      "tested": 0
+      "count": 6
     },
     "photography": {
-      "count": 8,
-      "tested": 0
+      "count": 8
     },
     "audio": {
-      "count": 3,
-      "tested": 0
+      "count": 3
     },
     "split": {
-      "count": 2,
-      "tested": 0
+      "count": 2
     }
+  },
+  "bySource": {
+    "localfeed/localfeed-motion-studio": 24,
+    "lifeprompt-team/remotion-scenes": 200,
+    "reactvideoeditor/remotion-templates": 78,
+    "vungods/SwiftClip": 30
   },
   "useCases": {
     "bold-hospitality-reel": [
       "LpTextKinetic",
       "LpCinematicEpic",
       "RveCinematicTitleIntro",
-      "ScEventPromo",
-      "LpLogoStamp"
+      "ScEventPromo"
     ],
     "venue-promotion": [
       "ScEventPromo",
       "ScProductLaunch",
       "LpLayoutGiantNumber",
-      "RveEndCard",
-      "LpLowerThird via LowerThirdBar"
+      "LowerThirdBar"
     ],
     "premium-wine-campaign": [
       "LpCinematicNoir",
       "LpCinematicRomance",
       "LpTextMaskReveal",
-      "RveLetterboxReveal",
-      "LpEffectFilmGrain"
+      "RveLetterboxReveal"
     ],
     "playful-lofi-reel": [
       "LpParticleSakura",
       "LpBackgroundAurora",
       "LpTextWave",
-      "ScSocialStory",
-      "LpRollerGradientWave"
+      "ScSocialStory"
     ],
     "beer-passport-launch": [
       "ScProductLaunch",
@@ -113,8 +98,7 @@
       "RveSoundWave",
       "LpTextKinetic",
       "LpRollerTypewriter",
-      "RveGlitchText",
-      "LpTextScramble"
+      "RveGlitchText"
     ]
   }
 }
